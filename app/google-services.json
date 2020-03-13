@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "750220799823",
+    "firebase_url": "https://matrix-7d303.firebaseio.com",
+    "project_id": "matrix-7d303",
+    "storage_bucket": "matrix-7d303.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:750220799823:android:75174c1df7134d4b091f3a",
+        "android_client_info": {
+          "package_name": "com.laioffer.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "750220799823-q00sftueudu57s22ka7epc1o1vm5057g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.laioffer.myapplication",
+            "certificate_hash": "f6279c5a070c914d8c25a72df1b51e6f99d57fd7"
+          }
+        },
+        {
+          "client_id": "750220799823-u0qihrhcorpnsjpul401u0fo1ddsh39o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARCaBQWGgA02qlTKIq3jeRFFVSN0TV3_U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "750220799823-u0qihrhcorpnsjpul401u0fo1ddsh39o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
