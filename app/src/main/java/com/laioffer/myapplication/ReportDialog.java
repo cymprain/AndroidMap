@@ -36,6 +36,7 @@ public class ReportDialog extends Dialog {
     private ImageView mEventTypeImg;
     private TextView mTypeTextView;
     private DialogCallBack mDialogCallBack;
+    private String mPrefillText;
 
     interface DialogCallBack {
         void onSubmit(String editString, String event_type);
@@ -136,6 +137,25 @@ public class ReportDialog extends Dialog {
         });
     }
 
+    public void setVocieInfor(String event_type, String prefillText) {
+        mEventype = event_type;
+        mPrefillText = prefillText;
+
+    }
+
+
+
+
+    @Override
+    public void onStart() {
+        super.onStart();
+        if (mEventype != null) {
+            showNextViewSwitcher(mEventype);
+        }
+        if (mPrefillText != null) {
+            mCommentEditText.setText(mPrefillText);
+        }
+    }
 
 
 
